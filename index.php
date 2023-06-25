@@ -27,9 +27,9 @@
 
         #DQL
         $host = 'localhost'; //Alterar host no lançamento
-        $user = 'DML_login';
-        $pass = '^rQ$vUK$vpS6ezuj';
-        $db = 'MCdb';
+        $user = 'user';
+        $pass = 'pass';
+        $db = 'DB';
         
 
         $link = mysqli_connect($host, $user, $pass, $db);
