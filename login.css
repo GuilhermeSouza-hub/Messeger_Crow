@@ -1,0 +1,154 @@
+* {
+    background-size: cover;
+}
+
+body {
+    background-image: linear-gradient(90deg, #0e0000, hsl(0, 100%, 8%), #0e0000);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#title {
+    text-align: center;
+    font-size: 40px;
+    width: max-content;
+    color: white;
+    font-family: Tenor Sans;
+    position: relative;
+}
+
+.hole_div {
+    width: 300px;
+    height: 25px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 5fr;
+    transform: translate(-17%);
+    padding-bottom: 15px;
+}
+
+.label_div {
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+.input {
+    padding-left: 10px;
+    height: 25px;
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(255, 0, 0, 0.377);
+}
+
+#senha_div {
+    padding-top: 10px;
+}
+
+#submit {
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#submit :hover {
+    background-image: linear-gradient(55deg, #a10000, rgb(255, 0, 0));
+}
+
+.button_base {
+    width: 200px;
+    height: 35px;
+    background-image: linear-gradient(55deg, #810000, rgb(206, 0, 0));
+    border: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    color: #ffffff;
+}
+
+#hint {
+    text-align: center;
+    color: #ffffff;
+}
+
+#slink {
+    color: #ffffff;
+}
+
+.popup {
+    display: none;
+    color: #ffffff;
+    width: 300px;
+    height: 375px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: large;
+    background-image: linear-gradient(55deg, #252525, #333333);
+    position: absolute;
+    border: 3px solid rgb(43, 43, 43);
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info_space {
+    width: 260px;
+    height: 385px;
+    background-color: #250000;
+    border-style: inherit;
+    border-color: #ffffff;
+    border-width: 1px;
+    margin-bottom: 15px;
+}
+
+.popup_text {
+    text-align: center;
+    line-height: 25px;
+    font-family: AnjaliOldLipi;
+}
+
+#error_pup {
+    display: none;
+    background-image: none;
+    width: 270px;
+    height: 300px;
+    background-color: #000000;
+    border-color: #6d6d6d;
+    border-width: 1px;
+    border-radius: 0%;
+}
+
+#error_text {
+    font-size: 18px;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#error_button {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.error_mes {
+    font-size: 15px;
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 60px;
+    color: #ffffff;
+    transform: translate(20.5%);
+    padding-left: 10px;
+    margin-top: -10px;
+    padding-top: 5px;
+    background-color: #363636;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #881e1e;
+    border-radius: 0px 0px 10px 10px;
+}

@@ -1,0 +1,241 @@
+* {
+    background-size: cover;
+}
+
+body {
+    background-image: linear-gradient(90deg, #0e0000, hsl(0, 100%, 8%), #0e0000);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#title {
+    text-align: center;
+    font-size: 40px;
+    width: max-content;
+    color: white;
+    font-family: Tenor Sans;
+    position: relative;
+}
+
+.hole_div {
+    width: 350px;
+    height: 25px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 5fr 9fr;
+    padding-bottom: 15px;
+    transform: translate(-9.5%);
+}
+
+.label_div {
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+.input {
+    padding-left: 10px;
+    height: 25px;
+    width: 90%;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(255, 0, 0, 0.377);
+}
+
+#senhasg_div {
+    width: 400px;
+    grid-template-columns: 5fr 9fr 2fr;
+    transform: translate(-8.5%);
+}
+
+#info {
+    vertical-align: middle;
+    color: #ffffff;
+    background-color: #ffffff00;
+    border-color: #0e000000;
+}
+
+#diamond {
+    position: absolute;
+    top: 8px;
+    width: 17px;
+    height: 17px;
+    left: 353px;
+    z-index: -1;
+    background-color: #c00000;
+    transform: rotate(-45deg); 
+}
+
+#submit {
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#submit :hover {
+    background-image: linear-gradient(55deg, #a10000, rgb(255, 0, 0));
+}
+
+.button_base {
+    width: 200px;
+    height: 35px;
+    background-image: linear-gradient(55deg, #810000, rgb(206, 0, 0));
+    border: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    color: #ffffff;
+}
+
+#hint {
+    text-align: center;
+    color: #ffffff;
+}
+
+#slink {
+    color: #ffffff;
+}
+
+.popup {
+    display: none;
+    color: #ffffff;
+    width: 300px;
+    height: 375px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: large;
+    background-image: linear-gradient(55deg, #252525, #333333);
+    position: absolute;
+    border: 3px solid rgb(43, 43, 43);
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup_text {
+    text-align: center;
+    line-height: 25px;
+    font-family: AnjaliOldLipi;
+}
+
+#wcome_pup {
+    display: flex;
+    background-image: none;
+    width: 270px;
+    height: 395px;
+    background-color: #000000;
+    border-color: #6d6d6d;
+    border-width: 1px;
+    border-radius: 0%;
+}
+
+.info_space {
+    width: 260px;
+    height: 385px;
+    background-color: #250000;
+    border-style: inherit;
+    border-color: #ffffff;
+    border-width: 1px;
+    margin-bottom: 15px;
+}
+
+#wcome_title_1 {
+    font-size: 25px;
+    color: #ffffff;
+    padding-top: 25px;
+}
+
+#wcome_title_2 {
+    font-size: 30px;
+    color: #ff0000;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 25px;
+}
+
+#wcome_text {
+    font-size: 18px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#wcome_button {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#iinfo_space {
+    width: 290px;
+    height: 415px;
+}
+
+#info_pup {
+    display: none;
+    background-image: none;
+    width: 300px;
+    height: 425px;
+    background-color: #000000;
+    border-color: #6d6d6d;
+    border-width: 1px;
+    border-radius: 0%;
+}
+
+#info_text {
+    font-size: 17px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+#info_button {
+    width: 100px;
+    height: 30px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#error_pup {
+    display: none;
+    background-image: none;
+    width: 270px;
+    height: 300px;
+    background-color: #000000;
+    border-color: #6d6d6d;
+    border-width: 1px;
+    border-radius: 0%;
+}
+
+#error_text {
+    font-size: 18px;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#error_button {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.error_mes {
+    font-size: 15px;
+    display: block;
+    width: 185px;
+    height: 60px;
+    color: #ffffff;
+    transform: translateX(52%);
+    padding-left: 10px;
+    margin-top: -10px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+    background-color: #363636;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #881e1e;
+    border-radius: 0px 0px 10px 10px;
+}
