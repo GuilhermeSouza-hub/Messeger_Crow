@@ -35,9 +35,9 @@
 
         #DML
         $host = 'localhost'; //Alterar host no lançamento
-        $user = 'DQL_signup';
-        $pass = 'e#qZ!iY93mNq5CfD';
-        $db = 'MCdb';
+        $user = 'user';
+        $pass = 'pass';
+        $db = 'DB';
         $date = date('Y-m-d H:i:s');
         $ip = $_SERVER['REMOTE_ADDR'];
 
