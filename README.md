@@ -1,5 +1,5 @@
 # Mensseger Crow
-Um site feito por 3 pessoas com a intenção de permitir a liberdade de expreção e uma manifestação contra a PL 2630/20(Lei da Fake News)
+Um site <u>feito</u> idealizado por 3 pessoas com a intenção de permitir a liberdade de expreção e uma manifestação contra a PL 2630/20(Lei da Fake News)
 # Colaboradores
 
 <img src="https://github.com/xXWalkmanXx/Mensseger_Crow/assets/76261561/38eb26cd-e08c-4d48-a194-d7777b0289b7" width="40" height="40"/><a  href="https://github.com/Deadputo2024"> Gustavo Ruiz</a> - Front-end<br>
