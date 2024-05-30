@@ -26,7 +26,7 @@
         $senha = hash('md5', $_POST['senha']);
 
         #DQL
-        $host = 'localhost'; //Alterar host no lançamento
+        $host = 'localhost'; 
         $user = 'user';
         $pass = 'pass';
         $db = 'DB';
